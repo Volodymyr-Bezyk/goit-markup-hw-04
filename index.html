@@ -37,8 +37,18 @@
           </ul>
         </nav>
         <div class="contacts">
-          <a href="mailto:info@devstudio.com" class="auth-link nav-link">info@devstudio.com</a>
-          <a href="tel:+380961111111" class="auth-link nav-link">+38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com" class="auth-link nav-link"
+            ><svg class="icon-header" width="16" height="12">
+              <use href="./images/sprite.svg#icon-header-mail"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a href="tel:+380961111111" class="auth-link nav-link">
+            <svg class="icon-header" width="10" height="16">
+              <use href="./images/sprite.svg#icon-header-smartphone"></use>
+            </svg>
+            +38 096 111 11 11</a
+          >
         </div>
       </div>
     </header>
@@ -60,28 +70,58 @@
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="list flex">
             <li class="features-item">
-              <h3 class="features-subtitle">Внимание к деталям</h3>
-              <p class="features-text">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
-              </p>
+              <div class="features-icon-thumb flex">
+                <svg class="features-icon">
+                  <use href="./images/sprite.svg#icon-features-antenna"></use>
+                </svg>
+              </div>
+              <div class="features-item-thumb">
+                <h3 class="features-subtitle">Внимание к деталям</h3>
+                <p class="features-text">
+                  Идейные соображения, а также начало повседневной работы по формированию позиции.
+                </p>
+              </div>
             </li>
             <li class="features-item">
-              <h3 class="features-subtitle">Пунктуальность</h3>
-              <p class="features-text">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-              </p>
+              <div class="features-icon-thumb flex">
+                <svg class="features-icon">
+                  <use href="./images/sprite.svg#icon-features-clock"></use>
+                </svg>
+              </div>
+              <div class="features-item-thumb">
+                <h3 class="features-subtitle">Пунктуальность</h3>
+                <p class="features-text">
+                  Задача организации, в особенности же рамки и место обучения кадров влечет за
+                  собой.
+                </p>
+              </div>
             </li>
             <li class="features-item">
-              <h3 class="features-subtitle">Планирование</h3>
-              <p class="features-text">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
-              </p>
+              <div class="features-icon-thumb flex">
+                <svg class="features-icon">
+                  <use href="./images/sprite.svg#icon-features-diagram"></use>
+                </svg>
+              </div>
+              <div class="features-item-thumb">
+                <h3 class="features-subtitle">Планирование</h3>
+                <p class="features-text">
+                  Равным образом консультация с широким активом в значительной степени
+                  обуславливает.
+                </p>
+              </div>
             </li>
             <li class="features-item">
-              <h3 class="features-subtitle">Современные технологии</h3>
-              <p class="features-text">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
+              <div class="features-icon-thumb flex">
+                <svg class="features-icon">
+                  <use href="./images/sprite.svg#icon-features-astronaut"></use>
+                </svg>
+              </div>
+              <div class="features-item-thumb">
+                <h3 class="features-subtitle">Современные технологии</h3>
+                <p class="features-text">
+                  Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -130,6 +170,52 @@
               <div class="team-group-text">
                 <h3 class="team-subtitle">Игорь Демьяненко</h3>
                 <p lang="en" class="team-text">Product Designer</p>
+                <ul class="list flex socials">
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="instagram"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="twitter"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="16.25">
+                        <use href="./images/sprite.svg#icon-socials-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="facebook"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="linkedin"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -137,6 +223,52 @@
               <div class="team-group-text">
                 <h3 class="team-subtitle">Ольга Репина</h3>
                 <p lang="en" class="team-text">Frontend Developer</p>
+                <ul class="list flex socials">
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="instagram"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="twitter"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="16.25">
+                        <use href="./images/sprite.svg#icon-socials-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="facebook"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="linkedin"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -144,6 +276,52 @@
               <div class="team-group-text">
                 <h3 class="team-subtitle">Николай Тарасов</h3>
                 <p lang="en" class="team-text">Marketing</p>
+                <ul class="list flex socials">
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="instagram"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="twitter"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="16.25">
+                        <use href="./images/sprite.svg#icon-socials-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="facebook"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="linkedin"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -151,6 +329,52 @@
               <div class="team-group-text">
                 <h3 class="team-subtitle">Михаил Ермаков</h3>
                 <p lang="en" class="team-text">UI Designer</p>
+                <ul class="list flex socials">
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="instagram"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="twitter"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="16.25">
+                        <use href="./images/sprite.svg#icon-socials-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="facebook"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      href=""
+                      rel="noreferrer noopener nofollow"
+                      aria-label="linkedin"
+                      class="social-link flex"
+                      ><svg class="social-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-socials-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
@@ -158,14 +382,118 @@
       </section>
     </main>
 
+    <!-- CLIENTS -->
+    <section class="clients section">
+      <div class="container">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="list flex">
+          <li class="clients-item">
+            <a class="clients-link flex" rel="noopener noreferrer nofollow" href="">
+              <svg class="clients-icon">
+                <use href="./images/sprite.svg#icon-clients-first"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link flex" rel="noopener noreferrer nofollow" href="">
+              <svg class="clients-icon">
+                <use href="./images/sprite.svg#icon-clients-second"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link flex" rel="noopener noreferrer nofollow" href="">
+              <svg class="clients-icon">
+                <use href="./images/sprite.svg#icon-clients-third"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link flex" rel="noopener noreferrer nofollow" href="">
+              <svg class="clients-icon">
+                <use href="./images/sprite.svg#icon-clients-fourth"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link flex" rel="noopener noreferrer nofollow" href="">
+              <svg class="clients-icon">
+                <use href="./images/sprite.svg#icon-clients-fifth"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link flex" rel="noopener noreferrer nofollow" href="">
+              <svg class="clients-icon">
+                <use href="./images/sprite.svg#icon-clients-sixth"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <a href="" class="header-logo"><span class="accent-logo">Web</span>Studio</a>
-        <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
-        <div class="contacts">
+        <div class="footer-item">
+          <a href="" class="header-logo"><span class="accent-logo">Web</span>Studio</a>
+          <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
           <a href="mailto:info@example.com" class="footer-link">info@example.com</a>
           <a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a>
+        </div>
+        <div class="footer-item">
+          <b class="footer-invitation">присоединяйтесь</b>
+          <ul class="list flex">
+            <li class="footer-socials-item">
+              <a
+                href=""
+                class="footer-socials flex"
+                aria-label="Instagram"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg width="20" height="20" class="footer-socials-icon">
+                  <use href="./images/sprite.svg#icon-socials-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                href=""
+                class="footer-socials flex"
+                aria-label="Instagram"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg width="20" height="16.25" class="footer-socials-icon">
+                  <use href="./images/sprite.svg#icon-socials-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                href=""
+                class="footer-socials flex"
+                aria-label="Instagram"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg width="20" height="20" class="footer-socials-icon">
+                  <use href="./images/sprite.svg#icon-socials-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                href=""
+                class="footer-socials flex"
+                aria-label="Instagram"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg width="20" height="20" class="footer-socials-icon">
+                  <use href="./images/sprite.svg#icon-socials-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
