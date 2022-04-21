@@ -318,6 +318,10 @@ body {
 .clients-link:focus .clients-icon {
   fill: var(--hover-color);
 }
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid #2196f3;
+}
 
 /*---------------------- INDEX STYLES END------------------------- */
 
